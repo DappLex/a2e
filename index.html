@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alexander </title>
+  <script src="./assets/js/tailwind.min.js"></script>
+  <link rel="stylesheet" href="alexander.css">
+
+</head>
+<body class="font-serif">
+    <div class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 cursor-pointer  relative">
+
+      <nav class="fixed top-0 bg-white w-full z-10">
+        <div class="container py-5 mx-auto flex justify-between items-center">
+          <div class="flex items-center gap-2">
+            <img class="w-8" src="./assets/images/logo.png" alt="">
+            <span class="text-2xl font-bold text-indigo-900">portwind.</span>
+          </div>
+          <ul class="hidden md:flex space-x-10 text-gray-600 text-sm uppercase">
+            <li class="hover:text-gray-400">
+              <a id="hlink" href="#Homepage">Homepage</a>
+            </li>
+            <li class="hover:text-gray-400">
+              <a id="hlink" href="#About">About me</a>
+            </li>
+            <li class="hover:text-gray-400">
+              <a id="hlink" href="#Services">Services</a>
+            </li>
+            <li class="hover:text-gray-400">
+              <a id="hlink" href="#Work">Work</a>
+            </li>
+            <li class="hover:text-gray-400">
+              <a id="hlink" href="#Contact">Contact</a>
+            </li>
+          </ul>
+          <img src="./assets/images/moon.png" alt="" class="hidden md:block w-7">
+          <div class="space-y-1 md:hidden">
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 bg-black"></div>
+          </div>
+          <ul class="hidden bg-indigo-900 absolute left-0 top-0 w-full rounded-b-3xl space-y10 text-white text-center">
+            <li>
+              <a href="#Homepage">Homepage</a>
+            </li>
+            <li>
+              <a href="#About ne">About me</a>
+            </li>
+            <li>
+              <a href="#Services">Services</a>
+            </li>
+            <li>
+              <a href="#Work">Work</a>
+            </li>
+            <li>
+              <a href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <img class="absolute bottom-0 right-0 h-5/6 object-cover lg:left-0 mx-auto
+      "src="./assets/images/man.png" alt="">
+      <div class="hidden lg:block absolute -bottom-2 w-96 h-96 bg-indigo-900 rounded-full left-0 right-0 
+      -z-10 mx-auto"></div>
+      <div class="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5
+      xl:left-48 xl:text-7xl font-bold">
+        <span class="text-gray-600">frelance</span>
+        <p class="text-red-500">Developer</p>
+      </div>
+      <div class="hidden lg:flex flex-col absolute top-0 bottom-0 m-auto right-10 bg-white p-6 h-fit w-1/3 gap-5
+      rounded-md shadow-lg">
+        <h1 class="text-4xl font-bold text-indigo-900">Hi,i'm Alexander</h1>
+        <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga et quos maxime voluptatum ipsam autem alias fugit atque nostrum eius.</p>
+        <a href="#" class="bg-blue-500 text-white px-3 py-2 w-fit rounded-md font-semibold">Hire Me</a>
+      </div>
+    </div>
+    <div id="About" class="px-10">
+      <div class="container mx-auto flex flex-col-reverse lg:flex-row items-center py-40">
+        <div class="relative flex gap-20">
+          <img class="absolute h-1/4 left-0 right-0 -z-10" src="./assets/images/dots.png" alt="">
+          <div class="h-full rounded-full overflow-hidden">
+            <img src="./assets/images/portrait.png" alt="">
+          </div>
+          <div class="my-auto flex flex-col gap-3">
+            <h1 class="text-indigo-600 font-bold">About me</h1>
+            <h1 class="text-3xl font-semibold">Better Design</h1>
+            <h1 class="text-3xl font-semibold">Better Experience</h1>
+            <p class="text-gray-400 text-sm">
+              I am Alexander Gospel, I would like to tell the world about tailwind and javscript andreact
+              blockchain pyton and man order language as possible  
+            </p>
+            <h2 class="text-gray-400 font-semibold">HTML</h2>
+            <div class="w-full h-1.5 rounded-md bg-gray-200">
+              <div class="w-full h-1.5 rounded-md bg-indigo-600"></div>
+            </div>
+            <h2 class="text-gray-400 font-semibold">Javascript</h2>
+            <div class="w-full h-1.5 rounded-md bg-gray-200">
+              <div class="w-4/6 h-1.5 rounded-md bg-indigo-600"></div>
+            </div>
+            <h2 class="text-gray-400 font-semibold">React</h2>
+            <div class="w-full h-1.5 rounded-md bg-gray-200">
+              <div class="w-5/6 h-1.5 rounded-md bg-indigo-600"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="mx-auto">
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="text-indigo-600 font-semibold">SERVICES</h1>
+          <h1 class="text-3xl">What do i offer</h1>
+          <p class="w-1/2 text-center text-gray-400">Alex World, In this world everything is Godly because with God all things is possible
+            belive in your self their is no limite to what you can archive.
+          </p>
+        </div>
+        <div class="flex flex-wrap p-5 sm:p-0 justify-between">
+          <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+            <img class="w-10" src="./assets/images/icon.png" alt="">
+            <h1 class="font-medium text-lg">UX/UI Design</h1>
+            <p class="text-gray-400">This website will bring you the ability to produce amaizing design and ideas</p>
+            <a class="text-indigo-600 font-semibold text-sm" href="">Read More</a>
+          </div>
+          <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+            <img class="w-10" src="./assets/images/icon.png" alt="">
+            <h1 class="font-medium text-lg">UX/UI Design</h1>
+            <p class="text-gray-400">This website will bring you the ability to produce amaizing design and ideas</p>
+            <a class="text-indigo-600 font-semibold text-sm" href="">Read More</a>
+          </div>
+          <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+            <img class="w-10" src="./assets/images/icon.png" alt="">
+            <h1 class="font-medium text-lg">UX/UI Design</h1>
+            <p class="text-gray-400">This website will bring you the ability to produce amaizing design and ideas</p>
+            <a class="text-indigo-600 font-semibold text-sm" href="">Read More</a>
+          </div>
+          <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+            <img class="w-10" src="./assets/images/icon.png" alt="">
+            <h1 class="font-medium text-lg">UX/UI Design</h1>
+            <p class="text-gray-400">This website will bring you the ability to produce amaizing design and ideas</p>
+            <a class="text-indigo-600 font-semibold text-sm" href="">Read More</a>
+          </div>
+          <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+            <img class="w-10" src="./assets/images/icon.png" alt="">
+            <h1 class="font-medium text-lg">UX/UI Design</h1>
+            <p class="text-gray-400">This website will bring you the ability to produce amaizing design and ideas</p>
+            <a class="text-indigo-600 font-semibold text-sm" href="">Read More</a>
+          </div>
+          <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+            <img class="w-10" src="./assets/images/icon.png" alt="">
+            <h1 class="font-medium text-lg">UX/UI Design</h1>
+            <p class="text-gray-400">This website will bring you the ability to produce amaizing design and ideas</p>
+            <a class="text-indigo-600 font-semibold text-sm" href="">Read More</a>
+          </div>
+        <div class="py-40">
+          <div class="flex flex-col gap-3 items-center">
+            <h1 class="text-indigo-600 font-semibold">Portfolio</h1>
+            <h1 class="text-3xl">Works and project</h1>
+            <p class="w-1/2 text-center text-gray-400">Alex World, In this world everything is Godly because with God all things is possible
+              belive in your self their is no limite to what you can archive.
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap p-5 sm:p-0 justify-between">
+          <div class="w-full md:w-5/12 shadow-xl rounded-lg p-5 my-3 md:my-10 m-1 lg:w-1/5">
+           <img src="./assets/images/item.png" alt="">
+          </div>
+          <div class="w-full md:w-5/12 shadow-xl rounded-lg p-5 my-3 md:my-10 m-1 lg:1/5">
+           <img src="./assets/images/item.png" alt="">
+          </div>
+          <div class="w-full md:w-5/12 shadow-xl rounded-lg p-5 my-3 md:my-10 m-1 lg:1/5">
+           <img src="./assets/images/item.png" alt="">
+          </div>
+          <div class="w-full md:w-5/12 shadow-xl rounded-lg p-5 my-3 md:my-10 m-1 lg:1/5">
+           <img src="./assets/images/item.png" alt=""> 
+          </div>
+          <div class="w-full md:w-5/12 shadow-xl rounded-lg p-5 my-3 md:my-10 m-1 lg:1/5">
+           <img src="./assets/images/item.png" alt=""> 
+          </div>
+          <div class="w-full md:w-5/12 shadow-xl rounded-lg p-5 my-3 md:my-10 m-1 lg:1/5">
+            <img src="./assets/images/item.png" alt="">
+          </div>
+          <div class="w-full md:w-5/12 shadow-xl rounded-lg p-5 my-3 md:my-10 m-1 lg:1/5">
+           <img src="./assets/images/item.png" alt=""> 
+          </div>
+          <div class="w-full md:w-5/12 shadow-xl rounded-lg p-5 my-3 md:my-10 m-1 lg:1/5">
+            <img src="./assets/images/item.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div>
+      <div class="container mx-auto">
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="text-indigo-600 font-semibold">Contact</h1>
+          <h1 class="text-3xl">I have a Qustion</h1>
+          <p class="w-1/2 text-center text-gray-400">
+            Bring your ideas to reality, Belive in God all thins are possible
+          </p>
+        </div>
+        <form class="flex flex-col gap-5 items-center mt-5 p-8">
+          <input class="p-2 w-full ring-2 ring-indigo-300 rounded-sm
+          md:1/2" type="text" name="" id="" placeholder="Name Sunname">
+          <input class="p-2 w-full ring-2 ring-indigo-300 rounded-sm
+          md:1/2" type="Email" name="" id="" placeholder="Email">
+          <textarea class="p-2 w-full ring-2 ring-indigo-300 rounded-sm
+          md:1/2" name="" id="" cols="30" rows="10" placeholder="Message...">
+
+          </textarea>
+          <button class="mb-20 w-1/4 bg-indigo-600 text-white font-medium px-3 py-2
+          rounded-md cursor-pointer ">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="top-0 bg-gray-800 w-full ">
+      <div class="container py-5 mx-auto flex justify-between items-center mb-20">
+        <div class="flex items-center gap-2">
+          <img class="w-8" src="./assets/images/logo.png" alt="">
+          <span class="text-2xl font-bold text-white">portwind.</span>
+        </div>
+        <span class="hidden md:block font-medium text-white">2022 Portwind. Design With love by Alexander</span>
+          <img class="w-4 cursor-pointer" src="./assets/images/facebook.png" alt="">
+          <img class="w-4 cursor-pointer" src="./assets/images/instagram.png" alt="">
+          <img class="w-4 cursor-pointer" src="./assets/images/twitter.png" alt="">
+          <img class="w-4 cursor-pointer" src="./assets/images/linkedin.png" alt="">
+        </div>
+      </div>
+    </div>
+</body>
+</html> 
