@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./assets/js/tailwind.min.js"></script>
+    
+  <style>
+    .radial-gradient {
+      background-image: radial-gradient(66.89% 66.89% at 50% 33.11%, #1C1643 0%, #16112E 42.71%, #0D0B15
+      87.09%);
+    }
+  </style>
+</head>
+<body>
+    <div class="radial-gradient h-screen text-sm font-bold text-white relative py-4">
+          <img src="./assets/images/clarity_close-line.png" alt="" class="w-[24px] h-[24px] absolute right-0 mr-7">
+        <div class="flex flex-col justify-center items-center space-y-3 text-white font-bold text-sm">
+            <!-- trash can -->
+            <div class="flex justify-center items-center h-[100px] w-[200px] mt-20">
+                <img src="./assets/images/trash-can-front-premium.png" alt="">
+            </div>
+            <!-- delete -->
+            <h4 class="tracking-wider text-xl">Delete Comment</h4>
+            <h4 class="text-sm tracking-wider">Are you sure you want to delete this comment</h4>
+            <!-- button  -->
+            <div class="flex space-x-1">
+                <button class="h-[48px] w-[91px] border border-blue-800 rounded-full">Cancel</button>
+                <button class="h-[48px] w-[91px] bg-red-700 rounded-full">Delete</button>
+            </div>
+        </div>
+      </div> 
+</body>
+
+</html>
